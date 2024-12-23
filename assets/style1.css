@@ -1,0 +1,251 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  /* Style the navigation bar */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b47aff;
+    min-width: 100vw;
+    min-height: 10vh;
+    border-bottom: black 1px solid;
+    padding: 10px 40px;
+  }
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a4ffdd;
+  }
+  
+  /* Navigation menu */
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+  }
+  
+  /* Navigation menu items */
+  .nav-menu li {
+    margin: 0 15px;
+  }
+  
+  .nav-menu li a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  button {
+    background-color: #6433a4;
+  }
+  
+  /* Hover effect on navigation links */
+  .nav-menu li a:hover {
+    background-color: #a10b0b;
+    border-radius: 4px;
+  }
+  
+  /* header section!!!!!!!!! */
+  .hero {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6433a4; /* Optional: background color */
+  }
+  
+  /* Text content on the left */
+  .hero-text {
+    width: 50vw;
+    flex-direction: column;
+    margin: 80px 80px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #a4ffdd;
+  }
+  
+  .under_line {
+    height: 3px;
+    width: 60%;
+    background-color: rgb(4, 111, 42);
+  }
+  
+  .hero-text p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #a4ffdd; /* Optional: text color */
+  }
+  
+  .btn {
+    color: aliceblue;
+    padding: 10px 10px;
+    background-color: rgb(114, 183, 11);
+  }
+  
+  .hero-image {
+    display: flex;
+    height: 60vh;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*1er section 1!!!!!!!!!! */
+  
+  .container1 {
+    text-align: center;
+    background-color: #a4ffdd;
+  }
+  
+  .under_line2 {
+    height: 2px;
+    width: 8%;
+    background-color: rgb(4, 111, 42);
+    margin-left: 80px;
+    margin-top: -10px;
+  }
+  .text_container1 h2 {
+    margin-left: 80px;
+    margin-top: 80px;
+    text-align: left;
+    color: #6433a4;
+    display: block;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 80px;
+  }
+  
+  .card {
+    background-color: black;
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 30%;
+  }
+  
+  .card p {
+    font-size: 18px;
+    color: #a4ffdd;
+  }
+  
+  /*2éme section 1!!!!!!!!!! */ /*2ème section 1!!!!!!!!!! */
+  
+  .container2 {
+    background-color: black;
+  }
+  
+  .under_line2 {
+    height: 2px;
+    width: 8%;
+    background-color: rgb(4, 111, 42);
+    margin: 80px;
+    margin-top: -10px;
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin: 80px;
+  }
+  
+  .card2 {
+    background-color: #b47aff;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container2 h2 {
+    font-size: 3rem;
+    color: #a4ffdd;
+    margin-left: 80px;
+  }
+  
+  /*3ème section 3!!!!!!3rd section!!!! */
+  
+  .container3 {
+    text-align: center;
+    background-color: #a4ffdd;
+  }
+  
+  .under_line3 {
+    height: 2px;
+    width: 8%;
+    background-color: rgb(4, 111, 42);
+    margin-left: 80px;
+    margin-top: -10px;
+  }
+  .text_container3 h2 {
+    margin-left: 80px;
+    text-align: left;
+    color: #6433a4;
+    
+  }
+  
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 80px;
+  }
+  
+  .card3 {
+    display: flex;
+    background-color: black;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    align-items: flex-start;
+  }
+  
+  .card3 img {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10%;
+  }
+  
+  /* 4éme section de la page!!!!!4rd section pf the page!!! */
+  .container4{
+    width: 100vw;
+    height:30vh ;
+    background-color: black;
+  }
+  
